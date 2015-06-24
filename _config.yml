@@ -39,10 +39,10 @@ timezone:      null
 
 
 #Site config
-title: 9leg
-description: java技术文章
+title: Yining
+description: FoodScience�
 keywords: Java
-url: http://9leg.com
+url: http://yjin2.github.io
 feed: /atom.xml
 favicon: /images/shortcut.jpg
 
