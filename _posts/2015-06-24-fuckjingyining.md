@@ -7,10 +7,14 @@ category: Github
 
 ## Fuck Jing Yining is very High!
 
+### 
+
 ~~~ bash
-
 echo "fuck!"
-
+for i in `seq`:
+do
+sleep;
+done
 ~~~
 
 

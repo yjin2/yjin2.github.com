@@ -15,11 +15,11 @@ category: "other"
 回归正题，那怎么优化国内访问速度问题呢？
 其实国内访问速度慢，都是请求google相关资源文件导致的，请看下面的html片段：
 
-{% highlight html %}
+~~~html
 <link href='http://fonts.googleapis.com/css?family=Spirax' rel='stylesheet' type='text/css'>
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-{% endhighlight %}
+~~~
 
 那么只要请求国内的资源文件就行了，或者你有个人空间，可以直接访问google的资源文件，复制并保存文件，接下来就是引用保存的文件就行了。在这里还是推荐第一种方式，使用现成的**国内前端公共库**像[www.freecdn.cn/](http://www.freecdn.cn/){:target="_blank"},[libs.useso.com/](http://libs.useso.com/){:target="_blank"}，这些公共库都是通过CDN服务优化过的。还有许多，在这里就不一一列举了，有兴趣的朋友可以看下这篇文章[盘点国内网站常用的一些 CDN 公共库加速服务](http://www.cnbeta.com/articles/304469.htm){:target="_blank"}。目前我使用的是360的公共库[libs.useso.com](http://libs.useso.com/){:target="_blank"}，对我来说已经足够了。
 
