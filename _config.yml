@@ -1,4 +1,4 @@
-# Where things are
+ï»¿# Where things are
 source:       .
 destination:  ./_site
 plugins:      ./_plugins
@@ -40,7 +40,7 @@ timezone:      null
 
 #Site config
 title: Yining
-description: FoodScience 
+description: FoodScience
 keywords: Java
 url: http://yjin2.github.io
 feed: /atom.xml
